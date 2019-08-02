@@ -1,0 +1,8 @@
+main: dev.d0tjar.plugin.Utils
+name: BasicStaffUtils
+version: 1.0
+author: D0tJar
+commands:
+  helpop:
+  report:
+  sc:

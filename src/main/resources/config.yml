@@ -1,0 +1,29 @@
+HELPOP_COMMAND:
+  COOLDOWN: 30
+  COOLDOWN_MESSAGE:
+    - "&c&oYou cannot do that for %cooldown%s"
+  SUCCESS:
+    - "&a&lYou have sent your request out to our staff!"
+  FAIL:
+    - "&cUsage: /helpop <message...>"
+  STAFF_PROMPT:
+    - "&7[&cHelpop&7] &b%sender%&7: %request%"
+REPORT_COMMAND:
+  COOLDOWN: 30
+  COOLDOWN_MESSAGE:
+    - "&c&oYou cannot do that for %cooldown%s"
+  SUCCESS:
+    - "&a&lYou have reported %target% for the reason:"
+    - "&8\u00BB &c%reason%"
+  FAIL:
+    - "&cUsage: /report <user> <reason...>"
+  STAFF_PROMPT:
+    - "&7[&cReport&7] &b%sender% &7has reported &4%target% &7for"
+    - "&8\u00BB &c%reason%"
+STAFF_CHAT_COMMAND:
+  TOGGLE_ON:
+    - "&a&oYou have enabled staff chat!"
+  TOGGLE_OFF:
+    - "&c&oYou have disabled staff chat!"
+  STAFF_PROMPT:
+    - "&7[&bStaff&7] &b%sender%&7: &f%message%"
